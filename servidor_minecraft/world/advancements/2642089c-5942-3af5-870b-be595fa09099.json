@@ -47,11 +47,23 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2024-12-21 23:41:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2024-12-21 23:20:50 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-12-21 23:41:18 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
@@ -91,7 +103,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-12-21 22:59:49 +0000"
+      "minecraft:stony_peaks": "2024-12-21 23:43:51 +0000",
+      "minecraft:forest": "2024-12-21 22:59:49 +0000",
+      "minecraft:jungle": "2024-12-21 23:44:24 +0000",
+      "minecraft:savanna": "2024-12-21 23:40:51 +0000"
     },
     "done": false
   },
@@ -242,6 +257,12 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-21 23:20:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-21 23:41:18 +0000"
     },
     "done": true
   },
